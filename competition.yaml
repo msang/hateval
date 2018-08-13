@@ -43,7 +43,7 @@ leaderboard:
       label: EMR
       leaderboard: *RESULTS
       rank: 5
-    askB_fscore_macro:
+    taskB_fscore_macro:
       label: F
       leaderboard: *RESULTS
       rank: 6   

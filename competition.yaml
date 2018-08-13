@@ -1,0 +1,170 @@
+admin_names: boscoc,dnozza,msang,valeriob,vpatti
+allow_public_submissions: true
+allow_teams: true
+anonymous_leaderboard: false
+description: Given a tweet and a target (Woman or Immigrant), determine the presence
+  of hate speech and whether it is against an individual or a group.
+disallow_leaderboard_modifying: true
+enable_detailed_results: true
+enable_forum: true
+enable_per_submission_metadata: false
+force_submission_to_leaderboard: true
+has_registration: true
+html:
+  data: data.html
+  evaluation: evaluation.html
+  overview: overview.html
+  terms: terms.html
+image: logohateval.png
+
+leaderboard:
+  leaderboards:
+    RESULTS: &RESULTS
+      label: Results
+      rank: 1
+  columns:
+    taskA_fscore:
+      label: F1
+      leaderboard: *RESULTS
+      rank: 4
+    taskA_precision:
+      label: P
+      leaderboard: *RESULTS
+      rank: 2
+    taskA_recall:
+      label: R
+      leaderboard: *RESULTS
+      rank: 3
+    taskA_accuracy:
+      label: Acc
+      leaderboard: *RESULTS
+      rank: 1
+    taskB_emr:
+      label: EMR
+      leaderboard: *RESULTS
+      rank: 5
+    askB_fscore_macro:
+      label: F
+      leaderboard: *RESULTS
+      rank: 6   
+      
+phases:
+  1:
+    color: grey
+    description: 'Trial data available.'
+    is_scoring_only: false
+    label: Trial
+    max_submissions: 999
+    max_submissions_per_day: 999
+    phasenumber: 1
+    public_data: misogyny-trial.zip
+    reference_data: misogyny-trial.zip
+    scoring_program: scoring_program_en_a.zip
+    start_date: 2018-08-20 00:00:00+00:00
+    starting_kit: starting_kit.zip
+  2:
+    color: green
+    description: 'English dataset for task A available for training'
+    is_scoring_only: false
+    label: Practice-English-A
+    max_submissions: 999
+    max_submissions_per_day: 999
+    phasenumber: 2
+    public_data: misogyny-trial.zip
+    reference_data: prova_EN_A.zip
+    scoring_program: scoring_program_en_a.zip
+    start_date: 2018-09-17 00:00:00+00:00
+  3:
+    color: red
+    description: 'Spanish dataset for task A available for training'
+    is_scoring_only: false
+    label: Practice-Spanish-A
+    max_submissions: 999
+    max_submissions_per_day: 999
+    phasenumber: 3
+    public_data: misogyny-trial.zip
+    reference_data: prova_ES_A.zip
+    scoring_program: scoring_program_es_a.zip
+    start_date: 2018-09-17 00:00:00+00:00
+  4:
+    color: purple
+    description: 'English dataset for task B available for training'
+    is_scoring_only: false
+    label: Practice-English-B
+    max_submissions: 999
+    max_submissions_per_day: 999
+    phasenumber: 4
+    public_data: misogyny-trial.zip
+    reference_data: prova_EN_B.zip
+    scoring_program: scoring_program_en_b.zip
+    start_date: 2018-09-17 00:00:00+00:00
+  5:
+    color: blue
+    description: 'Spanish dataset for task B available for training'
+    is_scoring_only: false
+    label: Practice-Spanish-B
+    max_submissions: 999
+    max_submissions_per_day: 999
+    phasenumber: 5
+    public_data: misogyny-trial.zip
+    reference_data: prova_ES_B.zip
+    scoring_program: scoring_program_es_b.zip
+    start_date: 2018-09-17 00:00:00+00:00
+  6:
+    auto_migration: false
+    color: green
+    description: 'Runs submitted to the English task A by participants are evaluated. A single submission is allowed for each participant and for each task.'
+    execution_time_limit: 500
+    is_scoring_only: false
+    label: Evaluation-English-A
+    max_submissions: 2
+    max_submissions_per_day: 2
+    phasenumber: 6
+    reference_data: prova_EN_A.zip
+    scoring_program: scoring_program_en_a.zip
+    start_date: 2019-01-10 00:00:00+00:00
+    leaderboard_management_mode: hide_results
+  7:
+    auto_migration: false
+    color: red
+    description: 'Runs submitted to the Spanish task A by participants are evaluated. A single submission is allowed for each participant and for each task.'
+    execution_time_limit: 500
+    is_scoring_only: false
+    label: Evaluation-Spanish-A
+    max_submissions: 2
+    max_submissions_per_day: 2
+    phasenumber: 7
+    reference_data: prova_ES_A.zip
+    scoring_program: scoring_program_es_a.zip
+    start_date: 2019-01-10 00:00:00+00:00
+    leaderboard_management_mode: hide_results
+  8:
+    auto_migration: false
+    color: purple
+    description: 'Runs submitted to the English task B by participants are evaluated. A single submission is allowed for each participant and for each task.'
+    execution_time_limit: 500
+    is_scoring_only: false
+    label: Evaluation-English-B
+    max_submissions: 2
+    max_submissions_per_day: 2
+    phasenumber: 8
+    reference_data: prova_EN_B.zip
+    scoring_program: scoring_program_en_b.zip
+    start_date: 2019-01-10 00:00:00+00:00
+    leaderboard_management_mode: hide_results
+  9:
+    auto_migration: false
+    color: blue
+    description: 'Runs submitted to the Spanish task B by participants are evaluated. A single submission is allowed for each participant and for each task.'
+    execution_time_limit: 500
+    is_scoring_only: false
+    label: Evaluation-Spanish-B
+    max_submissions: 2
+    max_submissions_per_day: 2
+    phasenumber: 9
+    reference_data: prova_ES_B.zip
+    scoring_program: scoring_program_es_b.zip
+    start_date: 2019-01-10 00:00:00+00:00
+    leaderboard_management_mode: hide_results
+show_datasets_from_yaml: true
+title: SemEval 2019 Task 5 - Shared Task on Multilingual Detection of Hate  

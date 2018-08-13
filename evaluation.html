@@ -1,0 +1,54 @@
+<p><span style="text-align: left; color: #FF6600; font-family: Verdana,Times,serif; font-size: xx-large;">Evaluation</span><p>
+
+<font face="Verdana">
+<p style="text-align: justify">
+For the evaluation of the results of task A and B different strategies and metrics are applied in order to allow for more fine-grained scores.
+</p>
+
+<pp style="text-align: justify">
+<strong>TASK A.</strong><br/>
+Systems will be evaluated using standard evaluation metrics, including accuracy, precision, recall and F1-score. The submissions will be ranked by F1-score.<br/> 
+
+The metrics will be computed as follows:
+<ul>
+<li><i>Accuracy</i> = (number of correctly predicted instances) / (total number of instances)
+<li><i>Precision</i> = (number of correctly predicted instances) / (number of predicted labels)
+<li><i>Recall</i> = (number of correctly predicted labels) / (number of labels in the gold standard)
+<li><i>F1-score</i> = (2 * Precision * Recall) / (Precision * Recall)
+</ul>
+</p>
+
+<p style="text-align: justify">
+<strong>TASK B.</strong> 
+Systems will be evaluated on the basis of two criteria: partial match and exact match.
+<br/> 
+<ul>
+
+<li><strong>Partial match</strong>: each dimension to be predicted (Hate Speech HS, Target TR and Aggressiveness AG) will be evaluated independently from the others using standard evaluation metrics, including <i>accuracy</i>, <i>precision</i>, <i>recall</i> and <i>F1-score</i> as defined above. The report for each participant will include all the measures and a summary of the performance in terms of macro-average <i>F1-score</i>, computed as follows:<br/>
+
+ <i>F1-score</i> = (F1(HS) + F1(AG) + F1(TR)) / 3 <br><br>
+ 
+ <li><strong>Exact match</strong>: all the dimensions to be predicted will be jointly considered computing the <i>Exact Match Ratio</i> (Kazawa, 2005). Given the multi-label dataset consisting of n multi-label samples (x<sub>i</sub>,Y<sub>i</sub>), where x<sub>i</sub> denotes the i-th instance and Y<sub>i</sub> represents the corresponding set of labels to be predicted (HS &isin; {0,1}, TR &isin; {0,1} and AG &isin; {0,1}), the Exact Match Ratio (EMR) will be computed as follows:<br/>
+
+ 
+ <div class="eq-c">
+<i>EMR</i> =
+<div class="fraction">
+<span class="fup">1</span>
+<span class="bar">/</span>
+<span class="fdn"><i>n</i></span>
+</div>
+<span class="intsuma">
+<span class="lim">n</span>
+<span class="sum-frac">&sum;</span>
+<span class="lim"><i>i</i>=1</span>
+</span>
+I(Y<sub>i</sub>,Z<sub>i</sub>)
+</div>
+
+  
+where Z<sub>i</sub> denotes the set of labels predicted for the i-th instance and I is the indicator function.<br/><br/><br/> 
+
+The submissions will be ranked by <i>EMR</i>. This choice is motivated by the willingness of capturing the most difficult task of capturing the entire phenomena, and therefore to identify the most dangerous behaviours against the targets.  
+
+</font>

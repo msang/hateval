@@ -1,0 +1,46 @@
+<p><span style="text-align: left; color: #FF6600; font-family: Verdana,Times,serif; font-size: xx-large;">Data</span><br />
+</p>
+
+<font face="Verdana">
+
+<p style="text-align: justify;" dir="ltr">
+<strong>Data sets</strong><br><br>
+
+All data for the competition are collected from Twitter and manually annotated mainly via the Figur8 crowdsourcing platform.
+They are organized in four datasets especially released for the competition according to the languages and targets involved:
+<ul>
+<li>English-hate-women, which includes English tweets about hate speech against women 
+<li>English-hate-immigrants, which includes English tweets about hate speech against immigrants
+<li>Spanish-hate-women, which includes Spanish tweets about hate speech against women
+<li>Spenish-hate-immigrants, which includes Spanish tweets about hate speech against immigrants
+</ul>
+
+A sample of each of the datasets is made available from participants from 08-20-2018.
+</p>
+
+<p style="text-align: justify">
+<strong>Format</strong><br><br>
+According to the need of the task and related subtasks, for each tweet each dataset will include:
+<ol>
+<li>a numeric ID that uniquely identifies the tweet within the dataset
+<li>the text of the tweet in anonymous form
+<li>a binary value (1/0) indicating if HS is occurring against one of the given targets (women or immigrants)
+<li>if HS occurs (i.e. the value for the feature at point 2 is 1), a binary value indicating if the target is a generic group of people (0) or a specific individual (1)
+<li>if HS occurs (i.e. the value for the feature at point 2 is 1), a binary value indicating if the tweeter is aggressive (1) or not (0)
+</ol>
+
+An annotated tweet has therefore the following pattern:
+<blockquote>"ID", "Tweet-text", "HS", "TargetRange", "Aggressiveness"
+</blockquote>
+where ID is a progressive number denoting the tweet, Tweet-text is the given text of the tweet<br/> 
+while the other parts of the pattern (given in trial and training data and to be predicted in testing data) are: Hate Speech [HS] is hateful (1) or not (0), TargetRange [TR] is group (0) or individual (1), and Aggressiveness [AG] is absent (0)  or present (1). 
+
+An example of annotation is reported in the following:
+
+<blockquote><i>"42648663", "USER_NAME Stupid ugly cunt who needs to die", "1", "1", "1"</i>
+</blockquote>
+
+Notice that aggressiveness is not a mandatory characteristics of all hateful texts and some text can express hate against a target in terms of disrespect but without using an aggressive language.
+</p>
+
+</font>

@@ -2,9 +2,9 @@
 
 In this repository you will find the datasets for SemEval-2019 Task 5:
 
-* Since August 20, 2018 ('Practice' phase): Trial data for English and Spanish, consisting of 100 tweets per file
-* Since September 17, 2018 ('Development' phase): Training data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish
-* Since January 10, 2019: Test data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish
+* August 20, 2018 ('Practice' phase): Trial data for English and Spanish, consisting of 100 tweets per file
+* September 17, 2018 ('Development' phase): Training data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish
+* January 10, 2019: Test data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish
 
 ## Useful links: ##
 * <a href="" target="_blank">CodaLab website of the task</a>

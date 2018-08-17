@@ -17,20 +17,20 @@ id[tab]{0|1}
 
 e.g.
 
-101[tab]1
-102[tab]0
-103[tab]1
+101[tab]1  
+102[tab]0  
+103[tab]1  
 
 ### Task B ###
 id[tab]{0|1}[tab]{0|1}[tab]{0|1}
 
 e.g.
 
-101[tab]1[tab]1[tab]1
-102[tab]0[tab]0[tab]0
-103[tab]1[tab]1[tab]0
-104[tab]1[tab]0[tab]0
-105[tab]1[tab]0[tab]1
+101[tab]1[tab]1[tab]1  
+102[tab]0[tab]0[tab]0  
+103[tab]1[tab]1[tab]0  
+104[tab]1[tab]0[tab]0  
+105[tab]1[tab]0[tab]1  
 
 ### File names ###
 

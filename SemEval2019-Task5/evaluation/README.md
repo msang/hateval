@@ -36,15 +36,15 @@ e.g.
 
 When submitting predictions to the task page in Codalab, one single file should be uploaded for each task, as a zip-compressed file, and it should be named according to the language and task predictions are submitted for, hence:
 
-* en_a.tsv for predictions for taskA-English
-* es_a.tsv for predictions for taskA-Spanish
-* en_b.tsv for predictions for taskB-English
-* es_b.tsv for predictions for taskB-Spanish
+* *en_a.tsv* for predictions for taskA-English
+* *es_a.tsv* for predictions for taskA-Spanish
+* *en_b.tsv* for predictions for taskB-English
+* *es_b.tsv* for predictions for taskB-Spanish
 
 
 ## Submission results ##
 
-The script outputs a file 'scorer.txt' containing different scores, depending on the task.
+The script outputs a file **scorer.txt** containing different scores, depending on the task.
 For task A it returns accuracy, precision, recall and F<sub>1</sub>-score corresponding to the submission, and for the HS category.
 For task B it returns accuracy, precision, recall and F<sub>1</sub>-score for each category (HS, Target Type, Aggressiveness), along with the macro-avreaged F<sub>1</sub>-score and the Exact Match Ratio.
 

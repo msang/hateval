@@ -1,0 +1,2 @@
+command: python $program/evaluation.py $input $output
+description: Scoring program for HatEval 2018.

@@ -1,46 +1,52 @@
-<p><span style="text-align: left; color: #FF6600; font-family: Verdana,Times,serif; font-size: xx-large;">Data</span><br />
-</p>
-
-<font face="Verdana">
-
-<p style="text-align: justify;" dir="ltr">
-<strong>Data sets</strong><br><br>
-
-All data for the competition are collected from Twitter and manually annotated mainly via the Figur8 crowdsourcing platform.
-They are organized in four datasets especially released for the competition according to the languages and targets involved:
+<p><span style="text-align: left; color: #ff6600; font-family: Verdana,Times,serif; font-size: xx-large;">Data</span></p>
+<h4 style="text-align: justify;" dir="ltr"><strong>Data sets</strong><br /><br /></h4>
+<p style="text-align: justify;" dir="ltr">All data for the competition are collected from Twitter and manually annotated mainly via the Figur8 crowdsourcing platform. They are organized in four datasets especially released for the competition according to the languages and targets involved:</p>
 <ul>
-<li>English-hate-women, which includes English tweets about hate speech against women 
-<li>English-hate-immigrants, which includes English tweets about hate speech against immigrants
-<li>Spanish-hate-women, which includes Spanish tweets about hate speech against women
-<li>Spenish-hate-immigrants, which includes Spanish tweets about hate speech against immigrants
+<li>English-hate-women, which includes English tweets about hate speech against women</li>
+<li>English-hate-immigrants, which includes English tweets about hate speech against immigrants</li>
+<li>Spanish-hate-women, which includes Spanish tweets about hate speech against women</li>
+<li>Spenish-hate-immigrants, which includes Spanish tweets about hate speech against immigrants</li>
 </ul>
-
-A sample of each of the datasets is made available from participants from 08-20-2018.
-</p>
-
-<p style="text-align: justify">
-<strong>Format</strong><br><br>
-According to the need of the task and related subtasks, for each tweet each dataset will include:
+<p style="text-align: justify;" dir="ltr">A sample of each of the datasets is made available from participants from 08-20-2018, during the 'Practice' phase.</p>
+<h4 style="text-align: justify;"><strong>Format</strong></h4>
+<p style="text-align: justify;">According to the need of the task and related subtasks, for each tweet each dataset will include:</p>
 <ol>
-<li>a numeric ID that uniquely identifies the tweet within the dataset
-<li>the text of the tweet in anonymous form
-<li>a binary value (1/0) indicating if HS is occurring against one of the given targets (women or immigrants)
-<li>if HS occurs (i.e. the value for the feature at point 2 is 1), a binary value indicating if the target is a generic group of people (0) or a specific individual (1)
-<li>if HS occurs (i.e. the value for the feature at point 2 is 1), a binary value indicating if the tweeter is aggressive (1) or not (0)
+<li>a numeric ID that uniquely identifies the tweet within the dataset</li>
+<li>the text of the tweet in anonymous form</li>
+<li>a binary value (1/0) indicating if HS is occurring against one of the given targets (women or immigrants)</li>
+<li>if HS occurs (i.e. the value for the feature at point 2 is 1), a binary value indicating if the target is a generic group of people (0) or a specific individual (1)</li>
+<li>if HS occurs (i.e. the value for the feature at point 2 is 1), a binary value indicating if the tweeter is aggressive (1) or not (0)</li>
 </ol>
-
-An annotated tweet has therefore the following pattern:
-<blockquote>"ID", "Tweet-text", "HS", "TargetRange", "Aggressiveness"
+<p>An annotated tweet is a tab-separated line with the following pattern:</p>
+<blockquote>
+<p>id[tab]text[tab]HS[tab]TR[tab]AG</p>
 </blockquote>
-where ID is a progressive number denoting the tweet, Tweet-text is the given text of the tweet<br/> 
-while the other parts of the pattern (given in trial and training data and to be predicted in testing data) are: Hate Speech [HS] is hateful (1) or not (0), TargetRange [TR] is group (0) or individual (1), and Aggressiveness [AG] is absent (0)  or present (1). 
-
-An example of annotation is reported in the following:
-
-<blockquote><i>"42648663", "USER_NAME Stupid ugly cunt who needs to die", "1", "1", "1"</i>
-</blockquote>
-
-Notice that aggressiveness is not a mandatory characteristics of all hateful texts and some text can express hate against a target in terms of disrespect but without using an aggressive language.
-</p>
-
-</font>
+<p style="text-align: justify;">where 'id' is a progressive number denoting the tweet, 'text' is the given text of the tweet<br /> while the other parts of the pattern (given in trial and training data and to be predicted in testing data) are: Hate Speech (HS) is hateful (1) or not (0), Target Range (TR) is the whole group (0) or a single individual (1), and Aggressiveness (AG) is absent (0) or present (1). An example of annotation is reported in the following:</p>
+<blockquote><em>42648663</em>[tab]<em>USER_NAME Stupid ugly cunt who needs to die</em>[tab]<em>1</em>[tab]<em>1</em>[tab]<em>1</em></blockquote>
+<p style="text-align: justify;">Notice that aggressiveness is not a mandatory characteristic of all hateful texts and some text can express hate against a target in terms of disrespect but without using an aggressive language.</p>
+<h4 style="text-align: justify;"><strong>Submission Instructions</strong></h4>
+<p>The script takes one single prediction file as input, that MUST be a .tsv file structured as follows:</p>
+<p><a id="user-content-task-a" class="anchor" href="https://github.com/msang/hateval/tree/master/evaluation#task-a"></a><strong>Task A</strong></p>
+<p>id[tab]{0|1}</p>
+<p>e.g.</p>
+<p>101[tab]1</p>
+<p>102[tab]0</p>
+<p>103[tab]1</p>
+<p><a id="user-content-task-b" class="anchor" href="https://github.com/msang/hateval/tree/master/evaluation#task-b"></a><strong>Task B</strong></p>
+<p>id[tab]{0|1}[tab]{0|1}[tab]{0|1}</p>
+<p>e.g.</p>
+<p>101[tab]1[tab]1[tab]1</p>
+<p>102[tab]0[tab]0[tab]0</p>
+<p>103[tab]1[tab]1[tab]0</p>
+<p>104[tab]1[tab]0[tab]0</p>
+<p>105[tab]1[tab]0[tab]1</p>
+<h4>&nbsp;</h4>
+<h4><a id="user-content-file-names" class="anchor" href="https://github.com/msang/hateval/tree/master/evaluation#file-names"></a>File names</h4>
+<p>When submitting predictions to the task page in Codalab, one single file should be uploaded for each task, as a zip-compressed file, and it should be named according to the language and task predictions are submitted for, hence:</p>
+<ul>
+<li><em>en_a.tsv</em> for predictions for taskA-English</li>
+<li><em>es_a.tsv</em> for predictions for taskA-Spanish</li>
+<li><em>en_b.tsv</em> for predictions for taskB-English</li>
+<li><em>es_b.tsv</em> for predictions for taskB-Spanish</li>
+</ul>
+<p>&nbsp;</p>

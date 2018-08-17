@@ -1,4 +1,4 @@
-Data sets
+#Data sets
 
 All data for the competition are collected from Twitter and manually annotated mainly via the Figur8 crowdsourcing platform. They are organized in four datasets especially released for the competition according to the languages and targets involved:
 
@@ -7,7 +7,7 @@ English-hate-immigrants, which includes English tweets about hate speech against
 Spanish-hate-women, which includes Spanish tweets about hate speech against women
 Spanish-hate-immigrants, which includes Spanish tweets about hate speech against immigrants
 
-Format
+##Data Format
 
 According to the need of the task and related subtasks, for each tweet each dataset will include:
 
@@ -26,4 +26,4 @@ while the other parts of the pattern (given in trial and training data and to be
 42648663[tab]USER_NAME Stupid ugly cunt who needs to die[tab]1[tab]1[tab]1
 Notice that aggressiveness is not a mandatory characteristics of all hateful texts and some text can express hate against a target in terms of disrespect but without using an aggressive language.
 
- 
+##Submission format

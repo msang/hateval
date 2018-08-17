@@ -1,1 +1,0 @@
-Official evaluation script of SemEval task 5. 

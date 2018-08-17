@@ -48,7 +48,7 @@ The script outputs a file 'scorer.txt' containing different scores, depending on
 For task A it returns accuracy, precision, recall and F<sub>1</sub>-score corresponding to the submission, and for the HS category.
 For task B it returns accuracy, precision, recall and F<sub>1</sub>-score for each category (HS, Target Type, Aggressiveness), along with the macro-avreaged F<sub>1</sub>-score and the Exact Match Ratio.
 
-### Testing the script offline ###
+## Testing the script offline ##
 
 In order to run the script locally, the input and output directories must match the Codalab format. The *input* directory must contain two subdirectories, namely **res** (containing the result file in TSV format with the naming convention described above) and **ref** containing the reference dataset (called **en.tsv** for English and **es.tsv** for Spanish). The output will be written in the file **scorer.txt** in the *output* directory.
 Example of file structure:

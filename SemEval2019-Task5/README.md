@@ -1,4 +1,4 @@
-# SemEval2019-Task5: Multilingual Detection of Hate (hatEval)#
+# SemEval2019-Task5: Multilingual Detection of Hate (hatEval) #
 
 This is the Github repository for SemEval-2019 Task 5.
 

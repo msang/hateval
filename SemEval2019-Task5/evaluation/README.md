@@ -4,13 +4,13 @@
 This is the official evaluation script for SemEval-2019 Task 5: Multilingual detection of hate. The script is language-independent and has been conceived in order to evaluate submissions for both task A and task B.
 
 **NOTE** 
-During the 'Practice' phase, the prediction files submitted by participants to the task page will be evaluated for the task A, and  for demonstration purposes only; if participants wish to test the script on prediction files for task B as well, they could use the version available here (see the instructions at the bottom of this page).
+During the **Practice** phase, the prediction files submitted by participants to the task page will be evaluated for the task A, and  for demonstration purposes only; if participants wish to test the script on prediction files for task B as well, they could use the version available here (see the instructions at the bottom of this page).
 
-For the 'Development' and 'Evaluation' phases, the script will provide a complete evaluation for each language and task for any submitted file, provided that the latter meet the submission requirements described below.
+For the **Development** and **Evaluation** phases, the script will provide a complete evaluation for each language and task for any submitted file, provided that the latter meet the submission requirements described below.
 
 ## Submission instructions ##
 
-The script takes one single prediction file as input, that MUST be a .tsv file structured as follows:
+The script takes one single prediction file as input, that MUST be a TSV file structured as follows:
 
 ### Task A ###
 id[tab]{0|1}

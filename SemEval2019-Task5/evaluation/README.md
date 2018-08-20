@@ -34,7 +34,7 @@ e.g.
 
 ### File names ###
 
-When submitting predictions to the task page in Codalab, one single file should be uploaded for each task, as a zip-compressed file, and it should be named according to the language and task predictions are submitted for, therefore:
+When submitting predictions to the task page in Codalab, one single file should be uploaded for each task and language, as a zip-compressed file, and it should be named according to the language and task predictions are submitted for, therefore:
 
 * *en_a.tsv* for predictions for taskA-English
 * *es_a.tsv* for predictions for taskA-Spanish

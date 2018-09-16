@@ -3,7 +3,7 @@
 In this repository you will find the datasets for SemEval-2019 Task 5:
 
 * Trial data for English and Spanish (August 20, 2018 )
-* Training data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish (September 17, 2018)
+* Training data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish (September 20, 2018)
 * Test data for taskA-English, taskA-Spanish, taskB-English, taskB-Spanish (January 10, 2019)
 
 ## Useful links: ##

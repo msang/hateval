@@ -8,7 +8,7 @@ They may be distributed upon request (contact the task organizers) and for acade
   
 The following **datasets and scripts** will be distributed throughout the competition:
 * Trial data & evaluation script (20/08/2018)
-* Data for training and development & benchmark system (17/09/2018)
+* Data for training and development & benchmark system (20/09/2018)
 * Test data (10/01/2019)
 
 Should you have any questions, contact our [Google group](https://groups.google.com/forum/#!forum/semeval2019-task5-hateval).

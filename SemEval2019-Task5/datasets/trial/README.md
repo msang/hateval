@@ -5,7 +5,7 @@ In this repository you will find example files for SemEval 2019 - Task 5, releas
 * *trial_en.tsv*: it includes English tweets about hate speech against women and immigrants
 * *trial_es.tsv*: it includes Spanish tweets about hate speech against women and immigrants
 
-Trial data serve the purpose of showing how the official training data will look like, and allowing participants to try out uploading a submission on CodaLab.
+Trial data serve the purpose of showing how the official training data will look like, and allowing participants to try out uploading a submission to CodaLab.
 
 ### File format ###
 The data have been encoded with the same format, independently of the task and language. Such format consists of a tab-separated file with one line per tweet containing the following fields:  

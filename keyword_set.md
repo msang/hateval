@@ -1,90 +1,89 @@
 English
 -------
 
-`#refugeesnotwelcome`
-`#whitegenocide`
-`#whitepower`
-`#whitepride`
-`#whiteresistance`
-`#whiterevolution`
-`#sendthemhome`
-`refugees not welcome`
-`#sendthemback`
-`#stopimmigration`
-`rapefugee`
-`golliwog`
-`immigrants go home`
-`refugees go home`
-`migrants go home`
-`curry muncher`
-`anti-immigrant`
-`anti-immigration`
-`#NoMoreRefugees`
-`#StopTheInvasion`
-`#NoMoreMigrants`
-`rag head`
-`immigrant`
-`immigrants`
-`immigration`
-`migrant`
-`migrants`
-`migration`
-`refugee`
-`refugees`
+- #refugeesnotwelcome
+- #whitegenocide
+- #whitepower
+- #whitepride
+- #whiteresistance
+- #whiterevolution
+- #sendthemhome
+- refugees not welcome
+- #sendthemback
+- #stopimmigration
+- rapefugee
+- golliwog
+- immigrants go home
+- refugees go home
+- migrants go home
+- curry muncher
+- anti-immigrant
+- anti-immigration
+- #NoMoreRefugees
+- #StopTheInvasion
+- #NoMoreMigrants
+- rag head
+- immigrant
+- immigrants
+- immigration
+- migrant
+- migrants
+- migration
+- refugee
+- refugees
 
 Spanish
 -------
 
-`gachupín`
-`gachupínes`
-`güera`
-`güeras`
-`güero`
-`güeros`
-`mayate`
-`mayates`
-`moromierda`
-`moromierdas`
-`machupichu`
-`machupichus`
-`musulmono`
-`musulmonos`
-`catalufo`
-`catalufos`
-`franchute`
-`franchutes`
-`frijolero`
-`frijoleros`
-`frijolera`
-`frijoleras`
-`gabacho`
-`gabachos`
-`gabacha`
-`gabachas`
-`sudaka`
-`sudakas`
-`sudaca`
-`sudacas`
-`arabe`
-`arabes`
-`subsahariano`
-`subsaharianos`
-`inmigrantes pobres`
-`indocumentado`
-`indocumentados`
-`sin papeles`
-`espalda mojada`
-`espaldas mojadas`
-`valla ceuta`
-`valla melilla`
-`#vallaceuta`
-`#vallamelilla`
-`#concertinas`
-`putos moros`
-`islam escuelas`
-`negratas`
-`inmigrante`
-`inmigrantes`
-`inmigración`
-`refugiados`
-
+gachupín
+gachupínes
+güera
+güeras
+güero
+güeros
+mayate
+mayates
+moromierda
+moromierdas
+machupichu
+machupichus
+musulmono
+musulmonos
+catalufo
+catalufos
+franchute
+franchutes
+frijolero
+frijoleros
+frijolera
+frijoleras
+gabacho
+gabachos
+gabacha
+gabachas
+sudaka
+sudakas
+sudaca
+sudacas
+arabe
+arabes
+subsahariano
+subsaharianos
+inmigrantes pobres
+indocumentado
+indocumentados
+sin papeles
+espalda mojada
+espaldas mojadas
+valla ceuta
+valla melilla
+#vallaceuta
+#vallamelilla
+#concertinas
+putos moros
+islam escuelas
+negratas
+inmigrante
+inmigrantes
+inmigración
+refugiados

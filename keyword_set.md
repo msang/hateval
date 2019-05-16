@@ -33,57 +33,57 @@ English
 - refugees
 
 Spanish
--------
+------- 
 
-gachupín
-gachupínes
-güera
-güeras
-güero
-güeros
-mayate
-mayates
-moromierda
-moromierdas
-machupichu
-machupichus
-musulmono
-musulmonos
-catalufo
-catalufos
-franchute
-franchutes
-frijolero
-frijoleros
-frijolera
-frijoleras
-gabacho
-gabachos
-gabacha
-gabachas
-sudaka
-sudakas
-sudaca
-sudacas
-arabe
-arabes
-subsahariano
-subsaharianos
-inmigrantes pobres
-indocumentado
-indocumentados
-sin papeles
-espalda mojada
-espaldas mojadas
-valla ceuta
-valla melilla
-#vallaceuta
-#vallamelilla
-#concertinas
-putos moros
-islam escuelas
-negratas
-inmigrante
-inmigrantes
-inmigración
-refugiados
+- gachupín
+- gachupínes
+- güera
+- güeras
+- güero
+- güeros
+- mayate
+- mayates
+- moromierda
+- moromierdas
+- machupichu
+- machupichus
+- musulmono
+- musulmonos
+- catalufo
+- catalufos
+- franchute
+- franchutes
+- frijolero
+- frijoleros
+- frijolera
+- frijoleras
+- gabacho
+- gabachos
+- gabacha
+- gabachas
+- sudaka
+- sudakas
+- sudaca
+- sudacas
+- arabe
+- arabes
+- subsahariano
+- subsaharianos
+- inmigrantes pobres
+- indocumentado
+- indocumentados
+- sin papeles
+- espalda mojada
+- espaldas mojadas
+- valla ceuta
+- valla melilla
+- #vallaceuta
+- #vallamelilla
+- #concertinas
+- putos moros
+- islam escuelas
+- negratas
+- inmigrante
+- inmigrantes
+- inmigración
+- refugiados

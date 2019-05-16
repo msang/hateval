@@ -1,90 +1,182 @@
-English
--------
+# Keyword set
 
-#refugeesnotwelcome
-#whitegenocide
-#whitepower
-#whitepride
-#whiteresistance
-#whiterevolution
-#sendthemhome
-refugees not welcome
-#sendthemback
-#stopimmigration
-rapefugee
-golliwog
-immigrants go home
-refugees go home
-migrants go home
-curry muncher
-anti-immigrant
-anti-immigration
-#NoMoreRefugees
-#StopTheInvasion
-#NoMoreMigrants
-rag head
-immigrant
-immigrants
-immigration
-migrant
-migrants
-migration
-refugee
-refugees
+Following, the set of keywords used to filter Twitter streams for each target and language are reported.
+Note that when an item is composed by more than one keyword, it means that all the reported keywords must appear in the tweet in order to be selected.
 
-Spanish
--------
+## 1. English language against immigrants
+---
 
-gachupín
-gachupínes
-güera
-güeras
-güero
-güeros
-mayate
-mayates
-moromierda
-moromierdas
-machupichu
-machupichus
-musulmono
-musulmonos
-catalufo
-catalufos
-franchute
-franchutes
-frijolero
-frijoleros
-frijolera
-frijoleras
-gabacho
-gabachos
-gabacha
-gabachas
-sudaka
-sudakas
-sudaca
-sudacas
-arabe
-arabes
-subsahariano
-subsaharianos
-inmigrantes pobres
-indocumentado
-indocumentados
-sin papeles
-espalda mojada
-espaldas mojadas
-valla ceuta
-valla melilla
-#vallaceuta
-#vallamelilla
-#concertinas
-putos moros
-islam escuelas
-negratas
-inmigrante
-inmigrantes
-inmigración
-refugiados
+- migrant
+- refugee
+- rapefugee
+- golliwog
+- sendthemback
+- whitepride
+- whitegenocide
+- whitepower
+- whiteresistance
+- whiterevolution
+- sendthemhome
+- stoptheinvasion
+- stopimmigration
+- rang head
+- nomorerefugees
+- nomoremigrant
+- refugeesnotwelcome
+- migrants go home
+- refugees go home
+- buildthatwall
+- endchainmigration
+- stopdaca
+- nodaca
+- enddaca
+- deportthemall
+- illegalaliens
+- illegalimmigr
+
+## 2. English language against women
+---
+- women are inferior to men
+- womenareinferiortomen
+- stay in the kitchen
+- sandwich maker
+- sandwichmaker
+- getbackinthekitchen
+- makemeasandwich
+- feminismiscancer bitch
+- feminismiscancer women
+- feminismiscancer you
+- notallmen women
+- notallmen woman
+- notallmen you
+- bitch cunt
+- bitch kunt
+- bitch whore
+- bitch women
+- whore cunt
+- whore women
+- kunt you
+- cunt kunt
+- cunt women
+- cunt woman
+- slut cunt
+- slut kunt
+- slut bitch
+- slut whore
+- not all men cunt
+- not all men bitch
+- not all men women
+- not all men woman
+- not all men girl
+- not all men you
+- not all men stupid
+- not all men pussy
+- skank cunt
+- skank bitch
+- skank whore
+- skank women
+- skank woman
+- skank girl
+- skank girlfriend
+- skank you
+- skank stupid
+- skank pussy
+- skank your ass
+- hysterical cunt
+- hysterical bitch
+- hysterical women
+- hysterical woman
+- hysterical girl
+- hysterical girlfriend
+- hysterical you
+- hysterical stupid
+- hysterical pussy
+- hysterical your ass
+- rape cunt
+- rape bitch
+- rape whore
+- rape women
+- rape woman
+- hole cunt
+- hole bitch
+- hole whore
+- hole women
+- hoe cunt
+- hoe bitch
+- hoe whore
+- hoe women
+- you pussy
+
+## 3. Spanish language against immigrants
+---
+
+- valla ceuta
+- concertinas
+- valla melilla
+- moro
+- sudaca
+- negrata
+- islam escuelas
+- inmigra
+- refugiad
+- sudaka
+- sudamericano
+- arabe
+- subsahariano
+- clandestino
+- sin papel
+- indocumentado
+- espalda mojada
+- catalufo
+- franchute
+- gabach
+- gachup
+- guer
+- machupichu
+- mayate
+- moromierda
+- panchito
+- putos moro
+- frijoler
+
+## 4. Spanish language against women
+---
+
+- perra
+- puta
+- zorra
+- guarra
+- coño
+- escoria
+- polla
+- eres una imbécil
+- sirvienta
+- violación
+- acoso
+- te pego
+- pegarte
+- te follo
+- follarte
+- comemela
+- con franco eso no pasaba
+- las mujeres son inferiores que los hombres
+- a fregar puta
+- callate
+- que te calles
+- arandina
+- lamanada
+- foreversirvienta
+- huelesaindigena
+- eresputa
+- ereszorra
+- huelesasirvienta
+- frescaderaja
+- callatesirvienta
+- noesviolacion
+- vuelvealacocina
+- mujeresinferiores
+- todasputas
+- notodosloshombres
+- machismo100x100
+- feminazis
 
